@@ -1,6 +1,6 @@
 :root{
   --color-principal: #fffd87;
-  --color-secundario: #8789ff; 
+  --color-secundario: #6f71ff; 
 }
 
 *{
@@ -11,18 +11,20 @@ body{
   background-color: var(--color-principal);
 }
 
-header{
-  background-color: rgb(255, 255, 255);
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-  margin: 0%;
-}
-
 .titulo{
   font-family: titulo;
   font-size: 48px;
-  background-color: var(--color-secundario);
-  border-radius: 10px;  
+  background-color: rgba(255, 255, 255, 0.509);
+  border-radius: 50px;  
   margin: 10px;
+  position: fixed;
+  left: 50px;
+  z-index: 1;
+  border: 2px solid black;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
 }
 
 nav{
@@ -30,5 +32,15 @@ nav{
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
+  flex-direction: row;
 }
 
+.dif-arr{
+  width: 100%;
+  height: 125px;
+  background-color: rgb(255, 255, 255);
+  filter: blur(1.2rem);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
