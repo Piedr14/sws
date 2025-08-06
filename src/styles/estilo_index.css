@@ -13,34 +13,42 @@ body{
 
 .titulo{
   font-family: titulo;
-  font-size: 48px;
-  background-color: rgba(255, 255, 255, 0.509);
+  font-size: 72px;
+  color: #000;
   border-radius: 50px;  
-  margin: 10px;
+  margin: 20px;
   position: fixed;
-  left: 50px;
+  left:8%;
+  top: -2.3%;
   z-index: 1;
-  border: 2px solid black;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 20px;
 }
 
-nav{
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-decoration: none;
-  flex-direction: row;
+.dif-arr{
+  width: 80%;
+  height: 90px;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 15px;
+  top: 2%;
+  align-self: center;
+  left: 8%;
 }
 
-.dif-arr{
-  width: 100%;
-  height: 125px;
-  background-color: rgb(255, 255, 255);
-  filter: blur(1.2rem);
-  position: fixed;
-  top: 0;
-  left: 0;
+nav{
+  display: flex;
+  flex-direction: row;
+  font-family: poppins;
 }
+
+#u{
+  background-color: #6f71ff;
+  height: 500px;
+  margin-top: 100px;
+}
+
+
