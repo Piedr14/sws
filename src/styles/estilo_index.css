@@ -1,5 +1,5 @@
 :root{
-  --color-principal: #f4ec5b;
+  --color-principal: #fff;
   --color-secundario: #4f4789; 
 }
 
@@ -52,4 +52,37 @@ nav{
 
 .log-cab{
   justify-content: space-between;
+}
+
+/*Quienes somos*/
+.quien-somos{
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
+.tit-qn{
+  font-family: titulo;
+  font-size: 50px;
+}
+
+.par-qn{
+  font-family: poppins;
+  font-size: 24px;
+  padding-top: 20px;
+}
+/*fin quienes somos*/
+
+/*que nos diferencia*/
+.que-nos-dif{
+  margin-top: 40px;
+  margin-left: 110px;
+  font-family: titulo;
+  font-size: 25px;
+}
+
+.par-que-nos-dif{
+  font-family: poppins;
+  font-size: 24px;
+  padding-top: 20px;
+  margin-left: 25px;
 }
