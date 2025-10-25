@@ -1,0 +1,14 @@
+@font-face {
+    font-family: parrafo;
+    src: url(../../public/assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: parrafo-i;
+    src: url(../../public/assets/fonts/Poppins/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: parrafo-u;
+    src: url(../../public/assets/fonts/Poppins/Poppins-Underline.ttf);
+}
