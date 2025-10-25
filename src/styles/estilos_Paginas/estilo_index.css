@@ -1,0 +1,68 @@
+:root{
+  --color-principal: #eeeeee;
+  --color-secundario: #0f0b2c; 
+}
+
+*{
+  margin: 0%;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  background-color: var(--color-principal);
+}
+
+/*call to action*/
+.b-cta {
+  background-color: var(--header-bg-start); /* empieza con el color del header */
+  font-family: titulo;
+  border: 0px;
+  margin: 0 7px;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 15px;
+  transition: background-color .30s ease, box-shadow .25s ease; /* transición suave */
+  box-shadow: none;
+}
+
+.b-cta:hover{
+  background-color: rgba(255,255,255,0); /* llega a transparente */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  color: var(--color-principal);
+  /* eliminado: animation: hover-li .3s ease-in; */
+}
+
+.p-cta{
+  font-family: poppins;
+  font-size: 20px;
+}
+
+.cta{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color-secundario);
+  color: var(--color-principal);
+  padding: 30px;
+}
+
+/*Quienes somos*/
+.quien-somos{
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
+.tit-qn{
+  font-family: titulo;
+  font-size: 50px;
+}
+
+.par-qn{
+  font-family: poppins;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
